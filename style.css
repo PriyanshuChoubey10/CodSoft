@@ -1,0 +1,80 @@
+.logo{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+header{
+    display: flex;
+    background-color: rgb(133, 250, 250);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    margin-right: 50px;
+    gap: 20px;
+
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    border: 3px solid rgb(251, 251, 251);
+    border-radius: 25px;
+    padding: 6px;
+    background-color: rgba(255, 192, 203, 0.833);
+}
+nav a:hover{
+    background-color: white;
+    color: blue;
+    border: 3px solid blue;
+}
+body{
+    background-image: linear-gradient(to bottom,rgba(25, 9, 168, 0.62),rgba(210, 180, 183, 0.8)),url("cd.jpg");
+}
+
+
+
+.box{
+    display: flex;
+    
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+.box1{
+    width: 60%;
+    font-family: cursive;
+    margin: 30px 50px 0 10px;
+}
+.box1 button{
+    background-color: aqua;
+    height: 40px;
+    width: 120px;
+    font-size: larger;
+    border-radius: 25px;
+    box-shadow: 0 0 25px blue;
+    color: blue;
+    cursor: pointer;
+}
+.box2{
+    width: 50%;
+    margin: 80px 10px 0 30px ;
+}
+
+.posterimg{
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+footer{
+    background-color: black;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding-top: 12px;
+}
